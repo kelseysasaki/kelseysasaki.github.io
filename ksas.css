@@ -1,0 +1,138 @@
+body {
+	background-color: #eeeeee;
+	margin: 0px; 
+	text-align:center;
+	font-family: Trebuchet MS;	
+	color:#000000;}
+
+#container {
+    margin: 100px auto 100px auto;
+    width: 1000px;
+    background: #ffffff;
+    border: 3px solid #2d5986;}
+
+#navcontainer {
+	margin:0px;
+	padding: 0px;
+	height: 130px;
+	background-color:#FFFFFF;
+}
+
+#navlist{
+	margin: 5px 0px ;
+	padding: 90px 5px 3.5px 0px;
+	border-bottom: 2px solid #00458c;
+	font: bold 12px Avenir, helvetica, sans-serif;	
+	text-align: right;}
+
+
+#navlist li{
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+#navlist li a{
+	padding: 3px 0.5em;
+	margin-left: 3px;
+	border: 2px solid #00458c;
+	border-bottom: none;
+	background: #DDE;
+	text-decoration: none;
+}
+
+#navlist li a#current{
+	background: white;
+	border-bottom: 1px solid #282138;
+	color: #448;}
+	
+#navlist li a:link { color: #448; }
+#navlist li a:visited { color: #448; }	
+
+#navlist li a:hover{
+	color: #000;
+	background: #7F7FA5;
+	border-color: #282138;}
+
+#content{
+	text-align:left;
+	padding:15px;
+	background-color: #fff;
+	text-align: left;	
+}
+
+#content h1 {
+	font-size: 1.7em;
+	margin: 25px 10px 10px 10px;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+	color: #538cc6;
+}
+
+#content h2 {
+	font-size: 1.2em;
+	margin: 25px 10px 10px 10px;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+	text-align: left;
+	color: #538cc6;
+}
+
+#content h3 {
+	font-size: 1em;
+	margin: 25px 10px 10px 10px;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+	text-align: left;
+	color: #F1B521;	
+	
+}
+
+#content p {
+	font-size: 100%;
+	margin: 12px;
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+	vertical-align:top;
+}
+
+#footer {
+	width:100%;
+	margin:0px auto;
+	padding: 0px;
+	height: 35px;
+	text-align:left;
+	background-color:#00458c;
+	clear:both;	
+	border: 0px;
+	}
+
+#footer p {
+	color: #fff;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	font-weight:bold;
+	font-size:80%;
+	}
+
+#footer a:link,  #footer a:active,  #footer a:visited, #footer a:hover {
+	color: #fff;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+.logo {
+	border: 2px solid #00458c;
+	padding: 5px;
+	float:left;
+	margin: 10px;
+	background-color: #FFFFFF;
+	}
+	
+caption { 
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
